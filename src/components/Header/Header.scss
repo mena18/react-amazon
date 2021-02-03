@@ -1,0 +1,69 @@
+.header{
+  height:60px;
+  display:flex;
+  align-items: center;
+  background-color: #131921;
+  position:sticky; // need to look at it
+  top:0;
+  z-index: 100;
+
+  .logo{
+    width:100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top:18px;
+
+  }
+
+  .search{
+    display:flex;
+    align-items: center;
+    flex:1;
+    border-radius: 24px;
+    
+    .input{
+      height:12px;
+      padding:10px;
+      border:none;
+      width:100%;
+    }
+
+    .icon{
+     padding:5px;
+     height:22px !important;
+     background-color:#cd9042; 
+    }
+  }
+
+  .nav{
+    display:flex;
+    justify-content: space-evenly;
+    .option{
+      display:flex;
+      flex-direction: column;
+      margin:0 10px;
+      color:white;
+
+      .optionOne{
+        font-size:10px;
+      }
+      .optionTwo{
+        font-size:13px;
+        font-weight: bold;
+      }
+      
+    }
+  }
+
+  .optionBasket{
+    display:flex;   
+    color:white;
+    align-items:center;
+    .BacketCount{
+      font-size:15px;
+      font-weight: bold;
+      margin:0 8px;
+    }
+  }
+}
+
